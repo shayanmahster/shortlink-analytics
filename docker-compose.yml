@@ -1,0 +1,15 @@
+services:
+  shortlink:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_BASE_URL=http://localhost:3000
+      - DATABASE_PATH=/app/data/shortlink.db
+      - IP_HASH_SALT=replace-with-a-strong-random-salt
+    volumes:
+      - shortlink_data:/app/data
+    restart: unless-stopped
+
+volumes:
+  shortlink_data:
