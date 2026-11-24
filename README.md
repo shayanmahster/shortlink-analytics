@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/banner.svg" alt="ShortLink Analytics Banner" width="100%" />
+</p>
+
 # ShortLink Analytics
 
 A full-stack URL shortener with QR code generation and real-time click analytics, built with **Next.js (App Router)**, **TypeScript**, **Tailwind CSS**, **SQLite (`better-sqlite3`)**, and **Recharts**.

@@ -1,0 +1,203 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-label="ShortLink Analytics — URL Shortener, QR Codes, and Real-Time Click Insights">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120" />
+      <stop offset="55%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+
+    <radialGradient id="indigoGlow" cx="78%" cy="22%" r="55%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.34" />
+      <stop offset="55%" stop-color="#4f46e5" stop-opacity="0.10" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="emeraldGlow" cx="18%" cy="85%" r="48%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.22" />
+      <stop offset="60%" stop-color="#10b981" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#4338ca" />
+    </linearGradient>
+
+    <linearGradient id="areaGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.02" />
+    </linearGradient>
+
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+
+    <pattern id="dotGrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#94a3b8" fill-opacity="0.16" />
+    </pattern>
+
+    <filter id="cardShadow" x="-15%" y="-15%" width="130%" height="135%">
+      <feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#020617" flood-opacity="0.6" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="640" rx="28" fill="url(#bgGrad)" />
+  <rect width="1280" height="640" rx="28" fill="url(#indigoGlow)" />
+  <rect width="1280" height="640" rx="28" fill="url(#emeraldGlow)" />
+  <rect width="1280" height="640" rx="28" fill="url(#dotGrid)" />
+  <rect x="1.5" y="1.5" width="1277" height="637" rx="26.5" fill="none" stroke="#334155" stroke-opacity="0.55" stroke-width="1.5" />
+
+  <!-- Left Content -->
+  <g transform="translate(80, 118)">
+    <!-- Logo Icon Badge -->
+    <rect x="0" y="0" width="68" height="68" rx="18" fill="url(#badgeGrad)" />
+    <rect x="0.75" y="0.75" width="66.5" height="66.5" rx="17.25" fill="none" stroke="#a5b4fc" stroke-opacity="0.45" stroke-width="1.5" />
+    <g transform="translate(18, 18)" fill="none" stroke="#ffffff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M13 19a7 7 0 0 1 0-10l3.5-3.5a7 7 0 0 1 9.9 9.9l-2 2" />
+      <path d="M19 13a7 7 0 0 1 0 10l-3.5 3.5a7 7 0 0 1-9.9-9.9l2-2" />
+    </g>
+
+    <!-- Eyebrow -->
+    <rect x="86" y="18" width="176" height="32" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <circle cx="104" cy="34" r="4.5" fill="#10b981" />
+    <text x="118" y="39" fill="#cbd5e1" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="600" letter-spacing="0.4">OPEN SOURCE</text>
+
+    <!-- Title -->
+    <text x="0" y="148" fill="#f8fafc" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="56" font-weight="800" letter-spacing="-1.4">ShortLink</text>
+    <text x="0" y="210" fill="#818cf8" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="56" font-weight="800" letter-spacing="-1.4">Analytics</text>
+
+    <!-- Subtitle -->
+    <text x="0" y="262" fill="#94a3b8" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="21" font-weight="400">
+      URL Shortener · QR Codes · Real-Time Click Insights
+    </text>
+
+    <!-- Tech Stack Pills -->
+    <g transform="translate(0, 306)" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="600">
+      <rect x="0" y="0" width="112" height="36" rx="10" fill="#1e293b" stroke="#475569" stroke-opacity="0.7" />
+      <text x="56" y="23" text-anchor="middle" fill="#e2e8f0">Next.js 15</text>
+
+      <rect x="124" y="0" width="118" height="36" rx="10" fill="#1e293b" stroke="#475569" stroke-opacity="0.7" />
+      <text x="183" y="23" text-anchor="middle" fill="#93c5fd">TypeScript</text>
+
+      <rect x="254" y="0" width="90" height="36" rx="10" fill="#1e293b" stroke="#475569" stroke-opacity="0.7" />
+      <text x="299" y="23" text-anchor="middle" fill="#6ee7b7">SQLite</text>
+
+      <rect x="356" y="0" width="92" height="36" rx="10" fill="#1e293b" stroke="#475569" stroke-opacity="0.7" />
+      <text x="402" y="23" text-anchor="middle" fill="#a5b4fc">Docker</text>
+    </g>
+  </g>
+
+  <!-- Right Floating Dashboard Card -->
+  <g transform="translate(658, 92)" filter="url(#cardShadow)">
+    <rect x="0" y="0" width="542" height="456" rx="24" fill="#111827" fill-opacity="0.92" stroke="#334155" stroke-width="1.5" />
+
+    <!-- Top Window Bar -->
+    <circle cx="28" cy="28" r="5.5" fill="#ef4444" fill-opacity="0.85" />
+    <circle cx="48" cy="28" r="5.5" fill="#f59e0b" fill-opacity="0.85" />
+    <circle cx="68" cy="28" r="5.5" fill="#10b981" fill-opacity="0.85" />
+
+    <!-- Short URL Pill -->
+    <rect x="110" y="14" width="290" height="28" rx="8" fill="#1e293b" stroke="#334155" />
+    <text x="255" y="33" text-anchor="middle" fill="#c7d2fe" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13.5" font-weight="600">short.link/product-launch</text>
+
+    <!-- Live Pill -->
+    <rect x="444" y="14" width="72" height="28" rx="14" fill="#064e3b" fill-opacity="0.7" stroke="#10b981" stroke-opacity="0.5" />
+    <circle cx="462" cy="28" r="4" fill="#34d399" />
+    <text x="474" y="32.5" fill="#6ee7b7" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700">LIVE</text>
+
+    <line x1="0" y1="56" x2="542" y2="56" stroke="#1e293b" stroke-width="1.5" />
+
+    <!-- Stat Cards Row -->
+    <g transform="translate(24, 76)">
+      <!-- Total Clicks -->
+      <rect x="0" y="0" width="236" height="88" rx="16" fill="#1e293b" fill-opacity="0.8" stroke="#334155" />
+      <text x="18" y="28" fill="#94a3b8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="600">TOTAL CLICKS</text>
+      <text x="18" y="66" fill="#f8fafc" font-family="ui-sans-serif, system-ui, sans-serif" font-size="32" font-weight="800">12,480</text>
+      <rect x="160" y="42" width="58" height="24" rx="8" fill="#064e3b" />
+      <text x="189" y="58" text-anchor="middle" fill="#34d399" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700">+24%</text>
+
+      <!-- Unique Visitors -->
+      <rect x="256" y="0" width="238" height="88" rx="16" fill="#1e293b" fill-opacity="0.8" stroke="#334155" />
+      <text x="274" y="28" fill="#94a3b8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12.5" font-weight="600">UNIQUE VISITORS</text>
+      <text x="274" y="66" fill="#f8fafc" font-family="ui-sans-serif, system-ui, sans-serif" font-size="32" font-weight="800">4,912</text>
+      <rect x="408" y="42" width="68" height="24" rx="8" fill="#312e81" />
+      <text x="442" y="58" text-anchor="middle" fill="#a5b4fc" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700">14 days</text>
+    </g>
+
+    <!-- Chart Card -->
+    <g transform="translate(24, 184)">
+      <rect x="0" y="0" width="356" height="246" rx="16" fill="#0f172a" stroke="#334155" />
+      <text x="18" y="30" fill="#e2e8f0" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13.5" font-weight="700">Clicks Over Time</text>
+
+      <!-- Subtle Chart Gridlines -->
+      <line x1="18" y1="74" x2="338" y2="74" stroke="#1e293b" stroke-dasharray="4 4" />
+      <line x1="18" y1="124" x2="338" y2="124" stroke="#1e293b" stroke-dasharray="4 4" />
+      <line x1="18" y1="174" x2="338" y2="174" stroke="#1e293b" stroke-dasharray="4 4" />
+      <line x1="18" y1="216" x2="338" y2="216" stroke="#334155" />
+
+      <!-- Area Fill -->
+      <path d="M 18 192 C 52 184, 72 152, 108 158 C 144 164, 166 112, 206 118 C 246 124, 272 72, 338 58 L 338 216 L 18 216 Z" fill="url(#areaGrad)" />
+
+      <!-- Chart Line -->
+      <path d="M 18 192 C 52 184, 72 152, 108 158 C 144 164, 166 112, 206 118 C 246 124, 272 72, 338 58" fill="none" stroke="url(#lineGrad)" stroke-width="3.5" stroke-linecap="round" />
+
+      <!-- Highlight Point -->
+      <circle cx="206" cy="118" r="6" fill="#0f172a" stroke="#818cf8" stroke-width="3" />
+      <circle cx="338" cy="58" r="6" fill="#34d399" stroke="#0f172a" stroke-width="2.5" />
+    </g>
+
+    <!-- QR & Devices Side Column -->
+    <g transform="translate(396, 184)">
+      <!-- QR Code Card -->
+      <rect x="0" y="0" width="122" height="132" rx="16" fill="#0f172a" stroke="#334155" />
+      <rect x="19" y="14" width="84" height="84" rx="10" fill="#ffffff" />
+      <!-- Stylized Crisp QR Pattern -->
+      <g transform="translate(27, 22)" fill="#0f172a">
+        <!-- Top-left finder -->
+        <rect x="0" y="0" width="20" height="20" rx="2" />
+        <rect x="4" y="4" width="12" height="12" fill="#ffffff" />
+        <rect x="7" y="7" width="6" height="6" />
+        <!-- Top-right finder -->
+        <rect x="48" y="0" width="20" height="20" rx="2" />
+        <rect x="52" y="4" width="12" height="12" fill="#ffffff" />
+        <rect x="55" y="7" width="6" height="6" />
+        <!-- Bottom-left finder -->
+        <rect x="0" y="48" width="20" height="20" rx="2" />
+        <rect x="4" y="52" width="12" height="12" fill="#ffffff" />
+        <rect x="7" y="55" width="6" height="6" />
+        <!-- Data modules -->
+        <rect x="26" y="4" width="6" height="6" />
+        <rect x="36" y="4" width="6" height="12" />
+        <rect x="26" y="16" width="6" height="12" />
+        <rect x="4" y="26" width="12" height="6" />
+        <rect x="22" y="32" width="12" height="6" />
+        <rect x="40" y="26" width="12" height="6" />
+        <rect x="58" y="28" width="10" height="6" />
+        <rect x="34" y="40" width="10" height="10" />
+        <rect x="50" y="40" width="6" height="14" />
+        <rect x="62" y="44" width="6" height="10" />
+        <rect x="26" y="54" width="12" height="6" />
+        <rect x="44" y="58" width="12" height="10" />
+        <rect x="60" y="60" width="8" height="8" />
+      </g>
+      <text x="61" y="118" text-anchor="middle" fill="#94a3b8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5" font-weight="600">QR Ready</text>
+
+      <!-- Device Split Card -->
+      <rect x="0" y="146" width="122" height="100" rx="16" fill="#0f172a" stroke="#334155" />
+      <text x="14" y="170" fill="#94a3b8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700">DEVICES</text>
+
+      <text x="14" y="192" fill="#e2e8f0" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11">Desktop</text>
+      <text x="108" y="192" text-anchor="end" fill="#818cf8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700">64%</text>
+      <rect x="14" y="198" width="94" height="6" rx="3" fill="#1e293b" />
+      <rect x="14" y="198" width="60" height="6" rx="3" fill="#6366f1" />
+
+      <text x="14" y="224" fill="#e2e8f0" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11">Mobile</text>
+      <text x="108" y="224" text-anchor="end" fill="#34d399" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700">36%</text>
+      <rect x="14" y="230" width="94" height="6" rx="3" fill="#1e293b" />
+      <rect x="14" y="230" width="34" height="6" rx="3" fill="#10b981" />
+    </g>
+  </g>
+</svg>
